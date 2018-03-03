@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script  src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+    <title>Step Brothers | Trivia Game</title>
+
+</head>
+        <body>
+                <h2 class="quizHeader">Welcome to the Step Brothers movie trivia game!</h2>
+                <div class="countdown"><h2>00:01</h2></div>
+                
+                  <table style="width:1280px">
+                        <tr>
+                            <td>
+                                <div>
+                                    <p class="question">1. Who are the main characters of the movie?</p>
+                                    <ul>
+                                        <input class="answer" type="radio" name="q1" value="1">
+                                        <label id="correctString1">Dale Dobak & Brennen Huff</label>
+                                        <br>
+                                        <input class="answer" type="radio" name="q1" value="0">
+                                        <label>Brennen Huff & Dale Pereira</label>
+                                        <br>
+                                        <input class="answer" type="radio" name="q1" value="0">
+                                        <label>Brennen Hoffman & Derek Dobak</label>
+                                        <br>
+                                        <input class="answer" type="radio" name="q1" value="0">
+                                        <label>Robert Huff & Brennen Scott</label>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <p class="question">2. What special talent did Brennen have?</p>         
+                                <ul>
+                                    <input class="answer" type="radio" name="q2" value="0">
+                                    <label>He was an accomplished clarinet player.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q2" value="1">
+                                    <label id="correctString2">He was a very talented singer.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q2" value="0">
+                                    <label>He could burp the Star Wars theme-song.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q2" value="0">
+                                    <label>He was an amazing drummer.</label>
+                                </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <p class="question">3. How old are the characters?</p>
+                    
+                                <ul>
+                                    <input class="answer" type="radio" name="q3" value="0">
+                                    <label>29 years old & 32 years old.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q3" value="1">
+                                    <label id="correctString3">39 years old & 40 years old.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q3" value="0">
+                                    <label>12 years old and 15 years old.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q3" value="0">
+                                    <label>55 years old and 56 years old.</label>
+                                </ul>
+                            </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <p class="question">4. What product did Brennen's older brother sell?</p>
+                    
+                                <ul>
+                                    <input class="answer" type="radio" name="q4" value="0">
+                                    <label>Sail Boats.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q4" value="0">
+                                    <label>Luxury Cars.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q4" value="1">
+                                    <label id="correctString4">Helicoptors.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q4" value="0">
+                                    <label>Private Jets.</label>
+                                </ul>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <!-- <tr>
+                        <td>
+                            <div>
+                                <p class="question">5. What company laid-off Brennen?</p>
+                  
+                              <ul>
+                                <input class="answer" type="radio" name="q5" value="0">
+                                <label>Petco.</label>
+                                <br>
+                                <input class="answer" type="radio" name="q5" value="1">
+                                <label id="correctString5">Petsmart.</label>
+                                <br>
+                                <input class="answer" type="radio" name="q5" value="0">
+                                <label>Piggly-Wiggly.</label>
+                                <br>
+                                <input class="answer" type="radio" name="q5" value="0">
+                                <label>7-11.</label>
+                              </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p class="question">6. What was the name of the Step Brother's business venture?</p>
+                              <ul>
+                                <input class="answer" type="radio" name="q6" value="0">
+                                <label>Dale Dobak's Roach Coach.</label>
+                                <br>
+                                <input class="answer" type="radio" name="q6" value="0">
+                                <label>Dale & Brennen's Pooper Scooper.</label>
+                                <br>
+                                <input class="answer" type="radio" name="q6" value="1">
+                                <label id="correctString6">Prestige Worldwide Entertainment Company.</label>
+                                <br>
+                                <input class="answer" type="radio" name="q6" value="0">
+                                <label>Costco.</label>
+                              </ul>
+                            </div>
+                        </td>
+                        </tr> -->
+                        <!-- <tr>
+                            <td>
+                                <div>
+                                    <p class="question">7. What did Dale's dad do for a living?</p>
+                      
+                                  <ul>
+                                    <input class="answer" type="radio" name="q7" value="0">
+                                    <label>Mr. Dobak was a commercial boat captain.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q7" value="0">
+                                    <label>Mr. Dobak was a school teacher.</label>                                  
+                                    <br>
+                                    <input class="answer" type="radio" name="q7" value="0">
+                                    <label>Mr. Dobak was retired.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q7" value="1">
+                                    <label id="correctString7">Mr. Dobak was a medical doctor.</label>
+                                  </ul>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div>
+                                    <p class="question">8. What jobs did Brennen & Dale get when the left home?</p>
+                      
+                                  <ul>
+                                    <input class="answer" type="radio" name="q8" value="1">
+                                    <label id="correctString8">Event Organizer & Catering Chef</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q8" value="0">
+                                    <label>Associate at Petsmart & Dog Catcher.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q8" value="0">
+                                    <label>They never got jobs.</label>
+                                    <br>
+                                    <input class="answer" type="radio" name="q8" value="0">
+                                    <label>Real Estate Agent & Medical Doctor.</label>
+                                  </ul>
+                                </div>
+                            </td>
+                        </tr> -->
+                       
+                  </table>
+              <br/>
+                <div class="submitter">
+                        <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+                        type="submit" value="Submit" />
+                  </div>
+                
+              <!--show only wrong answers on submit-->
+                <div class="quizAnswers" id="correctAnswer1"></div>
+                <div class="quizAnswers" id="correctAnswer2"></div>
+                <div class="quizAnswers" id="correctAnswer3"></div>
+                <div class="quizAnswers" id="correctAnswer4"></div>
+                <!-- <div class="quizAnswers" id="correctAnswer5"></div>
+                <div class="quizAnswers" id="correctAnswer6"></div>
+                <div class="quizAnswers" id="correctAnswer7"></div>
+                <div class="quizAnswers" id="correctAnswer8"></div> -->
+                
+
+              <!--show score upon submit-->
+                  <div>
+                      <h2 class="quizScore" id="userScore"></h2>
+                  </div>
+                  </div>
+              
+              </body>
+
+    
+
+</html>
